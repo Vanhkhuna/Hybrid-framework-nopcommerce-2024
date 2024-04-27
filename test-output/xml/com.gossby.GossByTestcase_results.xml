@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="26.400">
+           time="30.180">
   <properties />
   
   
-            <testcase name="TC_01_Mug_Add_To_Cart" time="26.400" classname="com.gossby.GossByTestcase" />
+            <testcase name="TC_01_Mug_Add_To_Cart" time="30.180" classname="com.gossby.GossByTestcase" />
       
 </testsuite>
