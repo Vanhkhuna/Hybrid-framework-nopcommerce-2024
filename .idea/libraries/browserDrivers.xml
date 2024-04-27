@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="browserDrivers">
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/browserDrivers" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>

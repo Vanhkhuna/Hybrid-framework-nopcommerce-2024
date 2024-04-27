@@ -1,0 +1,19 @@
+[18-03-2024 23:34:12.368 INFO commons.LogHelper] - Register - Step 01: Navigate to 'Register' page
+[18-03-2024 23:34:13.449 INFO commons.LogHelper] - Register - Step 02: Enter to Firstname textbox
+[18-03-2024 23:34:13.580 INFO commons.LogHelper] - Register - Step 03: Enter to Lastname textbox
+[18-03-2024 23:34:13.683 INFO commons.LogHelper] - Register - Step 04: Enter to Email textbox
+[18-03-2024 23:34:13.792 INFO commons.LogHelper] - Register - Step 05: Enter to Password textbox
+[18-03-2024 23:34:13.880 INFO commons.LogHelper] - Register - Step 06: Enter to Confirm password textbox
+[18-03-2024 23:34:13.972 INFO commons.LogHelper] - Register - Step 07: Click To Register button
+[18-03-2024 23:34:14.901 INFO commons.LogHelper] - Register - Step 08: Verify Success Message Displayed
+[18-03-2024 23:34:14.962 INFO commons.LogHelper] -  -------------------------- PASSED -------------------------- 
+[18-03-2024 23:34:14.969 INFO commons.LogHelper] -  -------------------------- FAILED -------------------------- 
+[18-03-2024 23:34:15.123 INFO commons.LogHelper] - Login - Step 01: Click To Login link
+[18-03-2024 23:34:15.621 INFO commons.LogHelper] - Login - Step 02: Enter to Email textbox
+[18-03-2024 23:34:15.748 INFO commons.LogHelper] - Login - Step 03: Enter to Password textbox
+[18-03-2024 23:34:15.879 INFO commons.LogHelper] - Home - Step 04: Click To Login Button
+[18-03-2024 23:34:16.708 INFO commons.LogHelper] - Home - Step 05: Verify My Account Link Displayed
+[18-03-2024 23:34:16.708 INFO commons.LogHelper] - Home - Step 06: Click To My Account Link
+[18-03-2024 23:34:17.169 INFO commons.LogHelper] - Home - Step 07: Verify Customer Info Page Displayed
+[18-03-2024 23:34:17.216 INFO commons.LogHelper] -  -------------------------- PASSED -------------------------- 
+[18-03-2024 23:34:17.217 INFO commons.LogHelper] -  -------------------------- FAILED -------------------------- 
