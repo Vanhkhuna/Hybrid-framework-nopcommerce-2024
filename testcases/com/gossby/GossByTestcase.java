@@ -108,6 +108,7 @@ public class GossByTestcase extends BaseTest {
 //        Assert.assertTrue(shoppingCartPage.isCartEmptyMessageDisplayed("Your cart is currently empty."));
 
         // Gia su nhu em code cho nay
+        // Viet them mot dong nua
 
     }
 
