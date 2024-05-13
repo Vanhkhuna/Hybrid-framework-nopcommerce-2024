@@ -1,0 +1,57 @@
+[INFO ] 18-03-2024 23:19:17 [main] LogHelper - Register - Step 01: Navigate to 'Register' page
+[INFO ] 18-03-2024 23:19:18 [main] LogHelper - Register - Step 02: Enter to Firstname textbox
+[INFO ] 18-03-2024 23:19:18 [main] LogHelper - Register - Step 03: Enter to Lastname textbox
+[INFO ] 18-03-2024 23:19:18 [main] LogHelper - Register - Step 04: Enter to Email textbox
+[INFO ] 18-03-2024 23:19:18 [main] LogHelper - Register - Step 05: Enter to Password textbox
+[INFO ] 18-03-2024 23:19:18 [main] LogHelper - Register - Step 06: Enter to Confirm password textbox
+[INFO ] 18-03-2024 23:19:18 [main] LogHelper - Register - Step 07: Click To Register button
+[INFO ] 18-03-2024 23:19:19 [main] LogHelper - Register - Step 08: Verify Success Message Displayed
+[INFO ] 18-03-2024 23:19:19 [main] LogHelper -  -------------------------- PASSED -------------------------- 
+[INFO ] 18-03-2024 23:19:19 [main] LogHelper -  -------------------------- FAILED -------------------------- 
+[INFO ] 18-03-2024 23:19:19 [main] LogHelper - Login - Step 01: Click To Login link
+[INFO ] 18-03-2024 23:19:20 [main] LogHelper - Login - Step 02: Enter to Email textbox
+[INFO ] 18-03-2024 23:19:20 [main] LogHelper - Login - Step 03: Enter to Password textbox
+[INFO ] 18-03-2024 23:19:20 [main] LogHelper - Home - Step 04: Click To Login Button
+[INFO ] 18-03-2024 23:19:21 [main] LogHelper - Home - Step 05: Verify My Account Link Displayed
+[INFO ] 18-03-2024 23:19:21 [main] LogHelper - Home - Step 06: Click To My Account Link
+[INFO ] 18-03-2024 23:19:21 [main] LogHelper - Home - Step 07: Verify Customer Info Page Displayed
+[INFO ] 18-03-2024 23:19:21 [main] LogHelper -  -------------------------- PASSED -------------------------- 
+[INFO ] 18-03-2024 23:19:21 [main] LogHelper -  -------------------------- FAILED -------------------------- 
+[INFO ] 18-03-2024 23:19:52 [main] LogHelper - Register - Step 01: Navigate to 'Register' page
+[INFO ] 18-03-2024 23:19:53 [main] LogHelper - Register - Step 02: Enter to Firstname textbox
+[INFO ] 18-03-2024 23:19:53 [main] LogHelper - Register - Step 03: Enter to Lastname textbox
+[INFO ] 18-03-2024 23:19:53 [main] LogHelper - Register - Step 04: Enter to Email textbox
+[INFO ] 18-03-2024 23:19:53 [main] LogHelper - Register - Step 05: Enter to Password textbox
+[INFO ] 18-03-2024 23:19:54 [main] LogHelper - Register - Step 06: Enter to Confirm password textbox
+[INFO ] 18-03-2024 23:19:54 [main] LogHelper - Register - Step 07: Click To Register button
+[INFO ] 18-03-2024 23:19:54 [main] LogHelper - Register - Step 08: Verify Success Message Displayed
+[INFO ] 18-03-2024 23:19:54 [main] LogHelper -  -------------------------- PASSED -------------------------- 
+[INFO ] 18-03-2024 23:19:54 [main] LogHelper -  -------------------------- FAILED -------------------------- 
+[INFO ] 18-03-2024 23:19:55 [main] LogHelper - Login - Step 01: Click To Login link
+[INFO ] 18-03-2024 23:19:55 [main] LogHelper - Login - Step 02: Enter to Email textbox
+[INFO ] 18-03-2024 23:19:55 [main] LogHelper - Login - Step 03: Enter to Password textbox
+[INFO ] 18-03-2024 23:19:55 [main] LogHelper - Home - Step 04: Click To Login Button
+[INFO ] 18-03-2024 23:19:56 [main] LogHelper - Home - Step 05: Verify My Account Link Displayed
+[INFO ] 18-03-2024 23:19:56 [main] LogHelper - Home - Step 06: Click To My Account Link
+[INFO ] 18-03-2024 23:19:56 [main] LogHelper - Home - Step 07: Verify Customer Info Page Displayed
+[INFO ] 18-03-2024 23:19:56 [main] LogHelper -  -------------------------- PASSED -------------------------- 
+[INFO ] 18-03-2024 23:19:56 [main] LogHelper -  -------------------------- FAILED -------------------------- 
+[INFO ] 18-03-2024 23:20:28 [main] LogHelper - Register - Step 01: Navigate to 'Register' page
+[INFO ] 18-03-2024 23:20:29 [main] LogHelper - Register - Step 02: Enter to Firstname textbox
+[INFO ] 18-03-2024 23:20:29 [main] LogHelper - Register - Step 03: Enter to Lastname textbox
+[INFO ] 18-03-2024 23:20:29 [main] LogHelper - Register - Step 04: Enter to Email textbox
+[INFO ] 18-03-2024 23:20:29 [main] LogHelper - Register - Step 05: Enter to Password textbox
+[INFO ] 18-03-2024 23:20:29 [main] LogHelper - Register - Step 06: Enter to Confirm password textbox
+[INFO ] 18-03-2024 23:20:30 [main] LogHelper - Register - Step 07: Click To Register button
+[INFO ] 18-03-2024 23:20:30 [main] LogHelper - Register - Step 08: Verify Success Message Displayed
+[INFO ] 18-03-2024 23:20:30 [main] LogHelper -  -------------------------- PASSED -------------------------- 
+[INFO ] 18-03-2024 23:20:30 [main] LogHelper -  -------------------------- FAILED -------------------------- 
+[INFO ] 18-03-2024 23:20:30 [main] LogHelper - Login - Step 01: Click To Login link
+[INFO ] 18-03-2024 23:20:31 [main] LogHelper - Login - Step 02: Enter to Email textbox
+[INFO ] 18-03-2024 23:20:31 [main] LogHelper - Login - Step 03: Enter to Password textbox
+[INFO ] 18-03-2024 23:20:31 [main] LogHelper - Home - Step 04: Click To Login Button
+[INFO ] 18-03-2024 23:20:32 [main] LogHelper - Home - Step 05: Verify My Account Link Displayed
+[INFO ] 18-03-2024 23:20:32 [main] LogHelper - Home - Step 06: Click To My Account Link
+[INFO ] 18-03-2024 23:20:32 [main] LogHelper - Home - Step 07: Verify Customer Info Page Displayed
+[INFO ] 18-03-2024 23:20:32 [main] LogHelper -  -------------------------- PASSED -------------------------- 
+[INFO ] 18-03-2024 23:20:32 [main] LogHelper -  -------------------------- FAILED -------------------------- 

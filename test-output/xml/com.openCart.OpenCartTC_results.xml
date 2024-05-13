@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Chrome"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="71.971">
+  <properties />
+  
+  
+            <testcase name="TC_01_Desktops_Add_To_Wishlist" time="37.751" classname="com.openCart.OpenCartTC" />
+                <testcase name="TC_02_Laptop_Sort" time="33.446" classname="com.openCart.OpenCartTC" />
+                <testcase name="TC_03_Product_Compare" time="0.774" classname="com.openCart.OpenCartTC" />
+      
+</testsuite>
