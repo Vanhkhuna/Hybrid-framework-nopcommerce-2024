@@ -107,6 +107,8 @@ public class GossByTestcase extends BaseTest {
 //        LogHelper.info("Shopping Cart Page -Step 16 : Verify cart empty message displayed");
 //        Assert.assertTrue(shoppingCartPage.isCartEmptyMessageDisplayed("Your cart is currently empty."));
 
+        // Gia su nhu em code cho nay
+
     }
 
 
