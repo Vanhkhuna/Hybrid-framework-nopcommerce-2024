@@ -12,127 +12,9 @@
 <body>
 <h1>Run on Chrome</h1>
 <p>
-  Test duration: 86.903s
+  Test duration: 110.390s
 </p>
 
-  <table class="resultsTable configTable">
-    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
-              <tr class="group">
-        <td colspan="3">com.gossby.TestSample</td>
-      </tr>
-            
-<tr>
-  <td class="method">
-                  beforeClass
-      </td>
-  <td class="duration">
-    35.844s
-  </td>
-  <td class="result">
-        
-          <i>Method arguments: </i><span class="arguments">"chrome"</span><br />
-    
-            <div class="testOutput">
-                        Home Page - Step 01 :Click Signin Button
-                  </div>
-    
-
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //span[@title=&apos;Sign in&apos;] (tried for 30 second(s) with 500 milliseconds interval)</b></a><br />
-    <div class="stackTrace" id="exception-0">
-              org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)<br />
-              org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)<br />
-              commons.BasePage.waitForElementClickable(BasePage.java:516)<br />
-              pageObjects.gossby.HomePageObject.clickSigninButton(HomePageObject.java:21)<br />
-              com.gossby.TestSample.beforeClass(TestSample.java:34)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
-              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-              org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)<br />
-              org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)<br />
-              org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)<br />
-              org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)<br />
-              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)<br />
-              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:819)<br />
-              org.testng.TestRunner.run(TestRunner.java:619)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1228)<br />
-              org.testng.TestNG.runSuites(TestNG.java:1134)<br />
-              org.testng.TestNG.run(TestNG.java:1101)<br />
-              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
-              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
-                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed<br/>
-from unknown error: web view not found<br/>
-&nbsp; (Session info: chrome=124.0.6367.156)<br/>
-Build info: version: &apos;4.16.0&apos;, revision: &apos;15400459dd*&apos;<br/>
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;<br/>
-Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [224d071de331579553e560f103f25518, findElement {using=xpath, value=//span[@title=&apos;Sign in&apos;]}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.156, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\KimAnh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54520}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54520/devtoo..., se:cdpVersion: 124.0.6367.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: 224d071de331579553e560f103f25518</a><br />
-        <div class="stackTrace" id="exception-1">
-                      jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)<br />
-                      java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-                      java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br />
-                      java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br />
-                      org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)<br />
-                      org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)<br />
-                      org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)<br />
-                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)<br />
-                      org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)<br />
-                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)<br />
-                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)<br />
-                      org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)<br />
-                      org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
-                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)<br />
-                      org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:627)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:624)<br />
-                      org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)<br />
-                      commons.BasePage.waitForElementClickable(BasePage.java:516)<br />
-                      pageObjects.gossby.HomePageObject.clickSigninButton(HomePageObject.java:21)<br />
-                      com.gossby.TestSample.beforeClass(TestSample.java:34)<br />
-                      java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-                      java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
-                      java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-                      java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
-                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
-                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)<br />
-                      org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)<br />
-                      org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)<br />
-                      org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)<br />
-                      org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)<br />
-                      java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
-                      org.testng.TestRunner.privateRun(TestRunner.java:819)<br />
-                      org.testng.TestRunner.run(TestRunner.java:619)<br />
-                      org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
-                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
-                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
-                      org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
-                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
-                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
-                      org.testng.TestNG.runSuitesLocally(TestNG.java:1228)<br />
-                      org.testng.TestNG.runSuites(TestNG.java:1134)<br />
-                      org.testng.TestNG.run(TestNG.java:1101)<br />
-                      com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
-                      com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
-                  </div>
-          </div>
-      </td>
-</tr>
-    
-      </table>
 
 
   <table class="resultsTable">
@@ -143,27 +25,38 @@ Session ID: 224d071de331579553e560f103f25518</a><br />
             
 <tr>
   <td class="method">
-                  TC_01_Mug_Add_To_Cart
+                  TC_02_Shopping_Cart
       </td>
   <td class="duration">
-    33.573s
+    61.057s
   </td>
   <td class="result">
         
     
             <div class="testOutput">
-                        Mug Page -Step 01 : Click Product By Title
-                                Mug Page -Step 02 : Verify Product Name displayed
+                        Mug Page -Step 01 : Click to Add to cart button
+                                Shopping Cart Page -Step 02 : Verify Image Cart Loading Invisible
+                                Shopping Cart Page -Step 03 : Verify Quanity Product after adding to cart that displayed correctly
+                                Shopping Cart Page -Step 04 : Verify product name in cart and product name selected in mug page are the same
+                                Shopping Cart Page -Step 05 : Verify product price in cart and product name selected in mug page are the same
+                                Shopping Cart Page -Step 06 : Uncheck Add Gift Pack checkbox
+                                Shopping Cart Page -Step 07 : Verify total product price in cart and product name selected in mug page are the same
+                                Shopping Cart Page -Step 08 : Click Change country link
+                                Shopping Cart Page -Step 09 : Click to country dropdown
+                                Shopping Cart Page -Step 10 : Click to country
+                                Shopping Cart Page -Step 11 : Click to Save button
+                                Shopping Cart Page -Step 12 : Verify Image Cart Loading Invisible
+                                Shopping Cart Page -Step 13 : Verify Add Ons Gift Undisplayed
                   </div>
     
 
-        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@title=&apos;More like this&apos;]/parent::div/following-sibling::h1 (tried for 30 second(s) with 500 milliseconds interval)</b></a><br />
-    <div class="stackTrace" id="exception-2">
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.cssSelector: div.AddOns_addons_img__hYOUM (tried for 5 second(s) with 500 milliseconds interval)</b></a><br />
+    <div class="stackTrace" id="exception-0">
               org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)<br />
               org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)<br />
-              commons.BasePage.waitForElementVisible(BasePage.java:460)<br />
-              pageObjects.gossby.MugCollectionPageObject.isProductNameDisplayed(MugCollectionPageObject.java:21)<br />
-              com.gossby.GossByTestcase.TC_01_Mug_Add_To_Cart(GossByTestcase.java:65)<br />
+              commons.BasePage.waitForElementUndisplayed(BasePage.java:503)<br />
+              pageObjects.gossby.ShoppingCartPageObject.isAddOnsGiftUndisplayed(ShoppingCartPageObject.java:89)<br />
+              com.gossby.GossByTestcase.TC_02_Shopping_Cart(GossByTestcase.java:123)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
               java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
               java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
@@ -189,19 +82,20 @@ Session ID: 224d071de331579553e560f103f25518</a><br />
               org.testng.TestNG.runSuitesLocally(TestNG.java:1228)<br />
               org.testng.TestNG.runSuites(TestNG.java:1134)<br />
               org.testng.TestNG.run(TestNG.java:1101)<br />
-              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
               com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
-                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed<br/>
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed<br/>
 from unknown error: web view not found<br/>
-&nbsp; (Session info: chrome=124.0.6367.156)<br/>
+&nbsp; (Session info: chrome=124.0.6367.202)<br/>
 Build info: version: &apos;4.16.0&apos;, revision: &apos;15400459dd*&apos;<br/>
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;<br/>
 Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
-Command: [b12b8afe0ad0298bf701d9dcbbd6ff2c, findElement {using=xpath, value=//button[@title=&apos;More like this&apos;]/parent::div/following-sibling::h1}]<br/>
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.156, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\KimAnh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54295/devtoo..., se:cdpVersion: 124.0.6367.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
-Session ID: b12b8afe0ad0298bf701d9dcbbd6ff2c</a><br />
-        <div class="stackTrace" id="exception-3">
-                      jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)<br />
+Command: [90515f26d9bae7df1a79f6453bef40db, findElement {using=css selector, value=div.AddOns_addons_img__hYOUM}]<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\KimAnh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65176/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}<br/>
+Session ID: 90515f26d9bae7df1a79f6453bef40db</a><br />
+        <div class="stackTrace" id="exception-1">
+                      java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+                      java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)<br />
                       java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
                       java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)<br />
                       java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)<br />
@@ -216,12 +110,12 @@ Session ID: b12b8afe0ad0298bf701d9dcbbd6ff2c</a><br />
                       org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)<br />
                       org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)<br />
                       org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)<br />
-                      org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$20.apply(ExpectedConditions.java:569)<br />
+                      org.openqa.selenium.support.ui.ExpectedConditions$20.apply(ExpectedConditions.java:565)<br />
                       org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)<br />
-                      commons.BasePage.waitForElementVisible(BasePage.java:460)<br />
-                      pageObjects.gossby.MugCollectionPageObject.isProductNameDisplayed(MugCollectionPageObject.java:21)<br />
-                      com.gossby.GossByTestcase.TC_01_Mug_Add_To_Cart(GossByTestcase.java:65)<br />
+                      commons.BasePage.waitForElementUndisplayed(BasePage.java:503)<br />
+                      pageObjects.gossby.ShoppingCartPageObject.isAddOnsGiftUndisplayed(ShoppingCartPageObject.java:89)<br />
+                      com.gossby.GossByTestcase.TC_02_Shopping_Cart(GossByTestcase.java:123)<br />
                       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
                       java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
                       java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
@@ -247,7 +141,7 @@ Session ID: b12b8afe0ad0298bf701d9dcbbd6ff2c</a><br />
                       org.testng.TestNG.runSuitesLocally(TestNG.java:1228)<br />
                       org.testng.TestNG.runSuites(TestNG.java:1134)<br />
                       org.testng.TestNG.run(TestNG.java:1101)<br />
-                      com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+                      com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)<br />
                       com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)<br />
                   </div>
           </div>
@@ -255,28 +149,35 @@ Session ID: b12b8afe0ad0298bf701d9dcbbd6ff2c</a><br />
 </tr>
       </table>
 
-  <table class="resultsTable" width="100%">
-    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">com.gossby.TestSample</td>
+        <td colspan="3" class="group">com.gossby.GossByTestcase</td>
       </tr>
             
 <tr>
   <td class="method">
-                  TC_01_Mug_Add_To_Cart
+                  TC_01_Product_Detail_Mug
       </td>
   <td class="duration">
-    0.000s
+    5.688s
   </td>
   <td class="result">
-                               
-    
         
+    
+            <div class="testOutput">
+                        Mug Page -Step 01 : Click Product By Title
+                                Mug Page -Step 02 : Verify Product Name displayed
+                                Mug Page -Step 03 : Verify Product Price Displayed
+                                Mug Page -Step 04 : Click Number Girl
+                                Mug Page -Step 05 : Input to Name Textbox 
+                  </div>
+    
 
       </td>
 </tr>
       </table>
-
   
 </body>
 </html>

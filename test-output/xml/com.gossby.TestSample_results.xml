@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="1"
-           time="35.844">
+           time="35.061">
   <properties />
-            <testcase name="beforeClass" time="35.844" classname="com.gossby.TestSample">
+            <testcase name="beforeClass" time="35.061" classname="com.gossby.TestSample">
                 <failure type="org.openqa.selenium.TimeoutException"
                   message="Expected condition failed: waiting for element to be clickable: By.xpath: //span[@title=&apos;Sign in&apos;] (tried for 30 second(s) with 500 milliseconds interval)"
               >
@@ -39,18 +39,18 @@
   org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
   org.testng.TestNG.runSuites(TestNG.java:1134)
   org.testng.TestNG.run(TestNG.java:1101)
-  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
   com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=124.0.6367.156)
+  (Session info: chrome=124.0.6367.202)
 Build info: version: '4.16.0', revision: '15400459dd*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [224d071de331579553e560f103f25518, findElement {using=xpath, value=//span[@title='Sign in']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.156, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\KimAnh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54520}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54520/devtoo..., se:cdpVersion: 124.0.6367.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 224d071de331579553e560f103f25518
-  jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+Command: [9099ac029bd1be43185d35b6a7e20441, findElement {using=xpath, value=//span[@title='Sign in']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\KimAnh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59765}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59765/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9099ac029bd1be43185d35b6a7e20441
+  jdk.internal.reflect.GeneratedConstructorAccessor23.newInstance(Unknown Source)
   java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
   java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
   java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -96,7 +96,7 @@ Session ID: 224d071de331579553e560f103f25518
   org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
   org.testng.TestNG.runSuites(TestNG.java:1134)
   org.testng.TestNG.run(TestNG.java:1101)
-  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
   com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
       </failure>

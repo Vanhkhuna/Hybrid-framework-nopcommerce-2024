@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Run on Chrome"
-           tests="1"
+           tests="2"
            failures="1"
            errors="0"
            skipped="0"
-           time="33.573">
+           time="66.745">
   <properties />
-            <testcase name="TC_01_Mug_Add_To_Cart" time="33.573" classname="com.gossby.GossByTestcase">
+            <testcase name="TC_02_Shopping_Cart" time="61.057" classname="com.gossby.GossByTestcase">
                 <failure type="org.openqa.selenium.TimeoutException"
-                  message="Expected condition failed: waiting for visibility of element located by By.xpath: //button[@title=&apos;More like this&apos;]/parent::div/following-sibling::h1 (tried for 30 second(s) with 500 milliseconds interval)"
+                  message="Expected condition failed: waiting for element to no longer be visible: By.cssSelector: div.AddOns_addons_img__hYOUM (tried for 5 second(s) with 500 milliseconds interval)"
               >
-<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //button[@title='More like this']/parent::div/following-sibling::h1 (tried for 30 second(s) with 500 milliseconds interval)
+<![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to no longer be visible: By.cssSelector: div.AddOns_addons_img__hYOUM (tried for 5 second(s) with 500 milliseconds interval)
   org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
   org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-  commons.BasePage.waitForElementVisible(BasePage.java:460)
-  pageObjects.gossby.MugCollectionPageObject.isProductNameDisplayed(MugCollectionPageObject.java:21)
-  com.gossby.GossByTestcase.TC_01_Mug_Add_To_Cart(GossByTestcase.java:65)
+  commons.BasePage.waitForElementUndisplayed(BasePage.java:503)
+  pageObjects.gossby.ShoppingCartPageObject.isAddOnsGiftUndisplayed(ShoppingCartPageObject.java:89)
+  com.gossby.GossByTestcase.TC_02_Shopping_Cart(GossByTestcase.java:123)
   java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
   java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -41,18 +41,19 @@
   org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
   org.testng.TestNG.runSuites(TestNG.java:1134)
   org.testng.TestNG.run(TestNG.java:1101)
-  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
   com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
 from unknown error: web view not found
-  (Session info: chrome=124.0.6367.156)
+  (Session info: chrome=124.0.6367.202)
 Build info: version: '4.16.0', revision: '15400459dd*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b12b8afe0ad0298bf701d9dcbbd6ff2c, findElement {using=xpath, value=//button[@title='More like this']/parent::div/following-sibling::h1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.156, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\KimAnh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54295/devtoo..., se:cdpVersion: 124.0.6367.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b12b8afe0ad0298bf701d9dcbbd6ff2c
-  jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+Command: [90515f26d9bae7df1a79f6453bef40db, findElement {using=css selector, value=div.AddOns_addons_img__hYOUM}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\KimAnh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65176/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90515f26d9bae7df1a79f6453bef40db
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
   java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
   java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
   java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -67,12 +68,12 @@ Session ID: b12b8afe0ad0298bf701d9dcbbd6ff2c
   org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
   org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
   org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
-  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
-  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)
+  org.openqa.selenium.support.ui.ExpectedConditions$20.apply(ExpectedConditions.java:569)
+  org.openqa.selenium.support.ui.ExpectedConditions$20.apply(ExpectedConditions.java:565)
   org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
-  commons.BasePage.waitForElementVisible(BasePage.java:460)
-  pageObjects.gossby.MugCollectionPageObject.isProductNameDisplayed(MugCollectionPageObject.java:21)
-  com.gossby.GossByTestcase.TC_01_Mug_Add_To_Cart(GossByTestcase.java:65)
+  commons.BasePage.waitForElementUndisplayed(BasePage.java:503)
+  pageObjects.gossby.ShoppingCartPageObject.isAddOnsGiftUndisplayed(ShoppingCartPageObject.java:89)
+  com.gossby.GossByTestcase.TC_02_Shopping_Cart(GossByTestcase.java:123)
   java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
   java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
   java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -98,7 +99,7 @@ Session ID: b12b8afe0ad0298bf701d9dcbbd6ff2c
   org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
   org.testng.TestNG.runSuites(TestNG.java:1134)
   org.testng.TestNG.run(TestNG.java:1101)
-  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
   com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
 ]]>
       </failure>
@@ -106,5 +107,6 @@ Session ID: b12b8afe0ad0298bf701d9dcbbd6ff2c
           </testcase>
   
   
-  
+            <testcase name="TC_01_Product_Detail_Mug" time="5.688" classname="com.gossby.GossByTestcase" />
+      
 </testsuite>
