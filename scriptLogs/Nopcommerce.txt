@@ -3909,3 +3909,124 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [224d071de331579553e560f103f25518, deleteAllCookies {}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.156, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\KimAnh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54520}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54520/devtoo..., se:cdpVersion: 124.0.6367.156, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: 224d071de331579553e560f103f25518
+[13-05-2024 16:59:46.822 INFO commons.LogHelper] - Home Page - Step 01 :Click Signin Button
+[13-05-2024 16:59:47.496 INFO commons.LogHelper] - Home Page - Step 02 : Input to Email Textbox
+[13-05-2024 16:59:48.316 INFO commons.LogHelper] - Home Page - Step 03 : Input to Password Textbox
+[13-05-2024 16:59:48.593 INFO commons.LogHelper] - Home Page - Step 04 : Click Submit Button
+[13-05-2024 16:59:48.795 INFO commons.LogHelper] - Home Page - Step 05 : Change Country
+[13-05-2024 16:59:48.887 INFO commons.LogHelper] - Home Page - Step 06 : Click to country
+[13-05-2024 16:59:49.474 INFO commons.LogHelper] - Home Page - Step 07 : Click Save Button
+[13-05-2024 16:59:49.588 INFO commons.LogHelper] - Home Page - Step 08 : Open Mug Collection Page
+[13-05-2024 16:59:51.559 INFO commons.LogHelper] - Mug Page -Step 01 : Click Product By Title
+[13-05-2024 16:59:51.913 INFO commons.LogHelper] - Mug Page -Step 02 : Verify Product Name displayed
+[13-05-2024 17:00:22.198 INFO commons.LogHelper] - OS name = windows 11
+[13-05-2024 17:00:22.198 INFO commons.LogHelper] - Driver instance name = chromedriver: chrome on windows (5882affa77c970a1501c2257e2f4d57e)
+[13-05-2024 17:00:27.182 INFO commons.LogHelper] - Home Page - Step 01 :Click Signin Button
+[13-05-2024 17:00:28.687 INFO commons.LogHelper] - Home Page - Step 02 : Input to Email Textbox
+[13-05-2024 17:00:29.834 INFO commons.LogHelper] - Home Page - Step 03 : Input to Password Textbox
+[13-05-2024 17:00:30.166 INFO commons.LogHelper] - Home Page - Step 04 : Click Submit Button
+[13-05-2024 17:00:30.336 INFO commons.LogHelper] - Home Page - Step 05 : Change Country
+[13-05-2024 17:00:30.419 INFO commons.LogHelper] - Home Page - Step 06 : Click to country
+[13-05-2024 17:00:30.904 INFO commons.LogHelper] - Home Page - Step 07 : Click Save Button
+[13-05-2024 17:00:31.005 INFO commons.LogHelper] - Home Page - Step 08 : Open Mug Collection Page
+[13-05-2024 17:00:32.024 INFO commons.LogHelper] - Mug Page -Step 01 : Click Product By Title
+[13-05-2024 17:00:32.981 INFO commons.LogHelper] - Mug Page -Step 02 : Verify Product Name displayed
+[13-05-2024 17:01:03.423 INFO commons.LogHelper] - OS name = windows 11
+[13-05-2024 17:01:03.423 INFO commons.LogHelper] - Driver instance name = chromedriver: chrome on windows (4d5ab5ae167bdea51345ef6d2459afb0)
+[13-05-2024 17:52:47.902 INFO commons.LogHelper] - Home Page - Step 01 :Click Signin Button
+[13-05-2024 17:52:48.130 INFO commons.LogHelper] - Home Page - Step 02 : Input to Email Textbox
+[13-05-2024 17:52:49.449 INFO commons.LogHelper] - Home Page - Step 03 : Input to Password Textbox
+[13-05-2024 17:52:49.854 INFO commons.LogHelper] - Home Page - Step 04 : Click Submit Button
+[13-05-2024 17:52:50.095 INFO commons.LogHelper] - Home Page - Step 05 : Change Country
+[13-05-2024 17:52:50.199 INFO commons.LogHelper] - Home Page - Step 06 : Click to country
+[13-05-2024 17:52:50.777 INFO commons.LogHelper] - Home Page - Step 07 : Click Save Button
+[13-05-2024 17:52:50.927 INFO commons.LogHelper] - Home Page - Step 08 : Open Mug Collection Page
+[13-05-2024 17:52:52.428 INFO commons.LogHelper] - Mug Page -Step 01 : Click Product By Title
+[13-05-2024 17:52:53.940 INFO commons.LogHelper] - Mug Page -Step 02 : Verify Product Name displayed
+[13-05-2024 17:53:24.669 INFO commons.LogHelper] - OS name = windows 11
+[13-05-2024 17:53:24.670 INFO commons.LogHelper] - Driver instance name = chromedriver: chrome on windows (5758709a7dec2f7f01f2134e5b1a107a)
+[13-05-2024 17:53:29.625 INFO commons.LogHelper] - Home Page - Step 01 :Click Signin Button
+[13-05-2024 17:53:30.111 INFO commons.LogHelper] - Home Page - Step 02 : Input to Email Textbox
+[13-05-2024 17:53:32.699 INFO commons.LogHelper] - Home Page - Step 03 : Input to Password Textbox
+[13-05-2024 17:53:33.023 INFO commons.LogHelper] - Home Page - Step 04 : Click Submit Button
+[13-05-2024 17:53:33.320 INFO commons.LogHelper] - Home Page - Step 05 : Change Country
+[13-05-2024 17:53:33.422 INFO commons.LogHelper] - Home Page - Step 06 : Click to country
+[13-05-2024 17:53:33.943 INFO commons.LogHelper] - Home Page - Step 07 : Click Save Button
+[13-05-2024 17:53:34.095 INFO commons.LogHelper] - Home Page - Step 08 : Open Mug Collection Page
+[13-05-2024 17:53:36.428 INFO commons.LogHelper] - Mug Page -Step 01 : Click Product By Title
+[13-05-2024 17:53:37.021 INFO commons.LogHelper] - Mug Page -Step 02 : Verify Product Name displayed
+[13-05-2024 17:54:07.689 INFO commons.LogHelper] - OS name = windows 11
+[13-05-2024 17:54:07.689 INFO commons.LogHelper] - Driver instance name = chromedriver: chrome on windows (69ccd1cc1e47bab6614da4e8992279a3)
+[14-05-2024 19:10:33.091 INFO commons.LogHelper] - Home Page - Step 01 :Click Signin Button
+[14-05-2024 19:10:33.962 INFO commons.LogHelper] - Home Page - Step 02 : Input to Email Textbox
+[14-05-2024 19:10:34.886 INFO commons.LogHelper] - Home Page - Step 03 : Input to Password Textbox
+[14-05-2024 19:10:35.187 INFO commons.LogHelper] - Home Page - Step 04 : Click Submit Button
+[14-05-2024 19:10:35.376 INFO commons.LogHelper] - Home Page - Step 05 : Change Country
+[14-05-2024 19:10:35.484 INFO commons.LogHelper] - Home Page - Step 06 : Click to country
+[14-05-2024 19:10:36.033 INFO commons.LogHelper] - Home Page - Step 07 : Click Save Button
+[14-05-2024 19:10:36.167 INFO commons.LogHelper] - Home Page - Step 08 : Open Mug Collection Page
+[14-05-2024 19:10:38.419 INFO commons.LogHelper] - Mug Page -Step 01 : Click Product By Title
+[14-05-2024 19:10:38.813 INFO commons.LogHelper] - Mug Page -Step 02 : Verify Product Name displayed
+[14-05-2024 19:11:09.149 INFO commons.LogHelper] - OS name = windows 11
+[14-05-2024 19:11:09.150 INFO commons.LogHelper] - Driver instance name = chromedriver: chrome on windows (74f900acac994481b8daeef24ba96212)
+[14-05-2024 19:11:09.155 INFO commons.LogHelper] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.202)
+Build info: version: '4.16.0', revision: '15400459dd*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74f900acac994481b8daeef24ba96212, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\KimAnh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59554}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59554/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74f900acac994481b8daeef24ba96212
+[14-05-2024 19:11:13.999 INFO commons.LogHelper] - Home Page - Step 01 :Click Signin Button
+[14-05-2024 19:11:44.372 INFO commons.LogHelper] - OS name = windows 11
+[14-05-2024 19:11:44.372 INFO commons.LogHelper] - Driver instance name = chromedriver: chrome on windows (9099ac029bd1be43185d35b6a7e20441)
+[14-05-2024 19:11:44.376 INFO commons.LogHelper] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.202)
+Build info: version: '4.16.0', revision: '15400459dd*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9099ac029bd1be43185d35b6a7e20441, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\KimAnh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59765}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59765/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9099ac029bd1be43185d35b6a7e20441
+[16-05-2024 22:17:21.276 INFO commons.LogHelper] - OS name = windows 11
+[16-05-2024 22:17:21.280 INFO commons.LogHelper] - Cannot invoke "Object.toString()" because "this.driver" is null
+[16-05-2024 22:18:18.727 INFO commons.LogHelper] - Home Page - Step 01 :Click Signin Button
+[16-05-2024 22:18:18.998 INFO commons.LogHelper] - Home Page - Step 02 : Input to Email Textbox
+[16-05-2024 22:18:19.750 INFO commons.LogHelper] - Home Page - Step 03 : Input to Password Textbox
+[16-05-2024 22:18:20.043 INFO commons.LogHelper] - Home Page - Step 04 : Click Submit Button
+[16-05-2024 22:18:20.347 INFO commons.LogHelper] - Home Page - Step 05 : Change Country
+[16-05-2024 22:18:20.483 INFO commons.LogHelper] - Home Page - Step 06 : Click to country
+[16-05-2024 22:18:21.035 INFO commons.LogHelper] - Home Page - Step 07 : Click Save Button
+[16-05-2024 22:18:21.204 INFO commons.LogHelper] - Home Page - Step 08 : Click Close Button in Popup
+[16-05-2024 22:18:51.288 INFO commons.LogHelper] - Home Page - Step 09 : Open Mug Collection Page
+[16-05-2024 22:18:51.545 INFO commons.LogHelper] - Mug Page -Step 01 : Click Product By Title
+[16-05-2024 22:18:51.813 INFO commons.LogHelper] - Mug Page -Step 02 : Verify Product Name displayed
+[16-05-2024 22:18:52.972 INFO commons.LogHelper] - Mug Page -Step 03 : Verify Product Price Displayed
+[16-05-2024 22:18:53.068 INFO commons.LogHelper] - Mug Page -Step 04 : Click Number Girl
+[16-05-2024 22:18:55.626 INFO commons.LogHelper] - Mug Page -Step 05 : Input to Name Textbox 
+[16-05-2024 22:18:57.236 INFO commons.LogHelper] - Mug Page -Step 01 : Click to Add to cart button
+[16-05-2024 22:19:03.373 INFO commons.LogHelper] - Shopping Cart Page -Step 02 : Verify Image Cart Loading Invisible
+[16-05-2024 22:19:06.684 INFO commons.LogHelper] - Shopping Cart Page -Step 03 : Verify Quanity Product after adding to cart that displayed correctly
+[16-05-2024 22:19:10.599 INFO commons.LogHelper] - Shopping Cart Page -Step 04 : Verify product name in cart and product name selected in mug page are the same
+[16-05-2024 22:19:10.838 INFO commons.LogHelper] - Shopping Cart Page -Step 05 : Verify product price in cart and product name selected in mug page are the same
+[16-05-2024 22:19:10.931 INFO commons.LogHelper] - Shopping Cart Page -Step 06 : Uncheck Add Gift Pack checkbox
+[16-05-2024 22:19:11.145 INFO commons.LogHelper] - Shopping Cart Page -Step 07 : Verify total product price in cart and product name selected in mug page are the same
+[16-05-2024 22:19:21.243 INFO commons.LogHelper] - Shopping Cart Page -Step 08 : Click Change country link
+[16-05-2024 22:19:21.471 INFO commons.LogHelper] - Shopping Cart Page -Step 09 : Click to country dropdown
+[16-05-2024 22:19:21.714 INFO commons.LogHelper] - Shopping Cart Page -Step 10 : Click to country
+[16-05-2024 22:19:21.874 INFO commons.LogHelper] - Shopping Cart Page -Step 11 : Click to Save button
+[16-05-2024 22:19:22.170 INFO commons.LogHelper] - Shopping Cart Page -Step 12 : Verify Image Cart Loading Invisible
+[16-05-2024 22:19:53.118 INFO commons.LogHelper] - Shopping Cart Page -Step 13 : Verify Add Ons Gift Undisplayed
+[16-05-2024 22:19:58.307 INFO commons.LogHelper] - OS name = windows 11
+[16-05-2024 22:19:58.308 INFO commons.LogHelper] - Driver instance name = chromedriver: chrome on windows (90515f26d9bae7df1a79f6453bef40db)
+[16-05-2024 22:19:58.312 INFO commons.LogHelper] - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.202)
+Build info: version: '4.16.0', revision: '15400459dd*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [90515f26d9bae7df1a79f6453bef40db, deleteAllCookies {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\KimAnh\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65176/devtoo..., se:cdpVersion: 124.0.6367.202, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 90515f26d9bae7df1a79f6453bef40db

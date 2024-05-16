@@ -1,14 +1,13 @@
 package pageObjects.gossby;
 
 import commons.BasePage;
-import org.openqa.selenium.StaleElementReferenceException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import pageUIs.gossby.HomePageUI;
 
 import javax.swing.*;
+import java.util.List;
 
 public class HomePageObject extends BasePage {
     WebDriver driver;
@@ -70,4 +69,14 @@ public class HomePageObject extends BasePage {
         }
         return PageGeneratorManager.getMugCollectionPage(driver);
     }
+
+    public void clickCloseButtonInPopup() {
+        List<WebElement> popups = driver.findElements(By.xpath("//div[@aria-label='POPUP Form']"));
+        if (popups.size() > 0) {
+            waitForElementClickable(driver, HomePageUI.CLOSE_BUTTON_IN_POPUP);
+            clickToElement(driver, HomePageUI.CLOSE_BUTTON_IN_POPUP);
+        }
+
+    }
+
 }
