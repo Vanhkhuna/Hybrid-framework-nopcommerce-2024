@@ -192,3 +192,6 @@ public class ShoppingCartPageObject extends BasePage {
         return priceDouble;
     }
 }
+
+
+//dẩy code 
