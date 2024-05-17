@@ -9,7 +9,7 @@ public class HomePageUI {
     public static final String DROPDOWN = "xpath=//div[@class='relative']//span[text()='Select your country']";
     public static final String DROPDOWN_CONTRIBUTE = "css=div#US";
     public static final String SAVE_BUTTON = "xpath=//button[text()='Save & Continue']";
-
     public static final String MUG_COLLECTION_LINK = "xpath=//h3[text()='Mug']";
-
+    public static final String POPUP_DISCOUNT_DISPLAYED = "xpath=//div[@aria-label='POPUP Form']";
+    public static final String CLOSE_BUTTON_IN_POPUP = "xpath=//div[@aria-label='POPUP Form']//button[@aria-label='Close dialog 3']";
 }

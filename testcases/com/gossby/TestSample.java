@@ -98,8 +98,8 @@ public class TestSample extends BaseTest {
         LogHelper.info("Shopping Cart Page -Step 13 : Verify quanity Product after adding to cart that displayed correctly");
         Assert.assertEquals(shoppingCartPage.getQuanityProductInCartDisplayed(), shoppingCartPage.getQuanityProductInCart());
 
-        LogHelper.info("Shopping Cart Page -Step 14 : Click to remove button");
-        shoppingCartPage.clickToRemoveButton();
+        //LogHelper.info("Shopping Cart Page -Step 14 : Click to remove button");
+        //shoppingCartPage.clickToRemoveButton();
 
         LogHelper.info("Shopping Cart Page -Step 15 : Verify remove product from cart message displayed");
         Assert.assertTrue(shoppingCartPage.isAlertMessageDisplayed("An item was removed from cart."));
