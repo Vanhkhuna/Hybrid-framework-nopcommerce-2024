@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Run on Chrome"
-           tests="1"
+           tests="5"
            failures="0"
            errors="0"
            skipped="0"
-           time="30.180">
+           time="403.450">
   <properties />
   
   
-            <testcase name="TC_01_Mug_Add_To_Cart" time="30.180" classname="com.gossby.GossByTestcase" />
+            <testcase name="TC_03_Checkout_Track_Order" time="292.513" classname="com.gossby.GossByTestcase" />
+                <testcase name="TC_04_Home_Signup_Signin" time="10.867" classname="com.gossby.GossByTestcase" />
+                <testcase name="TC_02_Shopping_Cart" time="59.210" classname="com.gossby.GossByTestcase" />
+                <testcase name="TC_05_Account_Setting" time="38.200" classname="com.gossby.GossByTestcase" />
+                <testcase name="TC_01_Product_Detail" time="2.660" classname="com.gossby.GossByTestcase" />
       
 </testsuite>

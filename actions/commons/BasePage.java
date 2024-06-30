@@ -400,9 +400,20 @@ public class BasePage {
         jsExecutor.executeScript("arguments[0].click();", getWebElement(driver, locatorType));
     }
 
+    public void clickToElementByJS(WebDriver driver, String locatorType, String... dynamicValues) {
+        JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+        jsExecutor.executeScript("arguments[0].click();", getDynamicXpath(locatorType, dynamicValues));
+    }
+
+
     public void scrollToElement(WebDriver driver, String locatorType) {
         JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
         jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getWebElement(driver, locatorType));
+    }
+
+    public void scrollToElement(WebDriver driver, String locatorType, String... dynamicValues) {
+        JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+        jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getWebElement(driver, getDynamicXpath(locatorType, dynamicValues)));
     }
 
     public void removeAttributeInDOM(WebDriver driver, String locatorType, String attributeRemove) {
@@ -653,6 +664,13 @@ public class BasePage {
 
     }
 
+    public void clickToRadioButtonByLabel(WebDriver driver, String radioButtonLabelName, String... dynamicValues) {
+        waitForElementClickable(driver, BasePageUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, radioButtonLabelName);
+        checkToDefaultCheckboxOrRadio(driver, getDynamicXpath(BasePageUI.DYNAMIC_RADIO_BUTTON_BY_LABEL, dynamicValues),
+                radioButtonLabelName);
+
+    }
+
     public void clickToCheckboxByLabel(WebDriver driver, String checkboxLabelName) {
         waitForElementClickable(driver, BasePageUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxLabelName);
         checkToDefaultCheckboxOrRadio(driver, BasePageUI.DYNAMIC_CHECKBOX_BY_LABEL, checkboxLabelName);
@@ -667,4 +685,5 @@ public class BasePage {
         openPageUrl(driver, adminUrl);
         return pageObjects.wordpress.admin.PageGeneratorManager.getAdminDashboardPage(driver);
     }
+
 }

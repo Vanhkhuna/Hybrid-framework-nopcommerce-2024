@@ -11,6 +11,8 @@
         <parameter name="browser" value="chrome"></parameter>
         <classes>
             <class name="com.gossby.GossByTestcase"/>
+
+
         </classes>
     </test>
 
