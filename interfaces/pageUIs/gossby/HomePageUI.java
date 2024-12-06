@@ -1,15 +1,17 @@
 package pageUIs.gossby;
 
 public class HomePageUI {
-    public static final String SIGNIN_BUTTON = "xpath=//span[@title='Sign in']";
-    public static final String EMAIL_TEXTBOX = "css=input#username";
-    public static final String PASSWORD_TEXTBOX = "css=input#password";
-    public static final String SUBMIT_BUTTON = "xpath=//button[@type='submit' and text()='Sign In']";
-    public static final String CHANGE_COUNTRY_BUTTON = "xpath=//a[@title='Blog']/following-sibling::div";
-    public static final String DROPDOWN = "xpath=//div[@class='relative']//span[text()='Select your country']";
-    public static final String DROPDOWN_CONTRIBUTE = "css=div#US";
-    public static final String SAVE_BUTTON = "xpath=//button[text()='Save & Continue']";
-
-    public static final String MUG_COLLECTION_LINK = "xpath=//h3[text()='Mug']";
+    public static final String SIGNIN_SIGNUP_BUTTON = "xpath=//span[@title='%s']";
+    public static final String CREAT_YOUR_ACCOUNT_BUTTON = "xpath=//span[text()='Create Your Account']";
+    public static final String ERROR_MESSAGE_AT_EMAIL_FIELD = "xpath=//input[@id='email']/parent::div//following-sibling::span[1]";
+    public static final String ERROR_MESSAGE_AT_PASSWORD_FIELD_SIGN_UP = "xpath=//input[@id='password']/parent::div/parent::div/following-sibling::span[1]";
+    public static final String ERROR_MESSAGE_AT_CONFIRM_FIELD_SIGN_UP = "xpath=//input[@id='confirm_password']/parent::div/parent::div/following-sibling::span";
+    public static final String DYNAMIC_TEXTBOX_FIELD = "xpath=//input[@id='%s']";
+    public static final String VERIFICATION_BUTTON = "xpath=//button[text()='%s']";
+    public static final String SIGN_IN_LINK = "xpath=//button[text()='Resend Verification Email']/parent::div/following-sibling::div/span";
+    public static final String ERROR_MESSAGE_AT_EMAIL_FIELD_SIGN_IN = "xpath=//input[@id='password']/ancestor::div[@class='relative']/preceding-sibling::span";
+    public static final String ERROR_MESSAGE_AT_PASS_FIELD_SIGN_IN = "xpath=//input[@id='password']/ancestor::div[@class='relative']/following-sibling::span";
+    public static final String SIGN_IN_POPUP = "css=div.ReactModal__Content--after-open";
+    public static final String ACCOUNT_BUTTON = "xpath=//a[@title='Account']//p";
 
 }
